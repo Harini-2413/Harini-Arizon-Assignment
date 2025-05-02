@@ -1,0 +1,25 @@
+.listing-page {
+    padding: 2rem;
+  }
+  
+  .listing-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .status-message {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .status-message.error {
+    color: red;
+  }
